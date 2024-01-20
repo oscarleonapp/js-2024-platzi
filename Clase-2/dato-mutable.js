@@ -10,3 +10,14 @@ console.log(usuario);
 let frutas = ["manzana", "pera"];
 frutas[0] = "sandia";
 console.log(frutas);
+
+// Función
+function cambiarNombre(objeto) {
+  objeto.nombre = "Nuevo nombre";
+}
+
+// Objeto
+let persona = { nombre: "Oscar" };
+cambiarNombre(persona);
+
+console.log(persona);
