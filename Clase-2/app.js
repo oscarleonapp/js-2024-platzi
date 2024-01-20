@@ -1,6 +1,6 @@
 // Tipos de datos
 
-// PRIMITIVOS
+// PRIMITIVOS (inmutables) se pasan por valor
 // string
 // number
 // boolean
@@ -9,7 +9,7 @@
 // symbol
 // bigint
 
-// COMPLEJOS
+// COMPLEJOS (mutables) se pasan por referencia
 // object
 // array
 // function
